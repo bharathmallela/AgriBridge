@@ -1,0 +1,21 @@
+# Git Commands to Push AgriBridge App to GitHub
+# Run these commands in your project directory after installing Git
+
+# 1. Initialize Git repository
+git init
+
+# 2. Add all files to staging
+git add .
+
+# 3. Create initial commit
+git commit -m "Initial commit: AgriBridge App with React, Tailwind, and full localization"
+
+# 4. Add remote repository
+git remote add origin https://github.com/bharathmallela/AgriBridge.git
+
+# 5. Push to GitHub (main branch)
+git push -u origin main
+
+# Alternative if main branch doesn't exist:
+# git branch -M main
+# git push -u origin main
