@@ -14,9 +14,9 @@ import {
   Grape,
   Cherry,
   Banana,
-  Orange,
+  Circle,
   Wheat,
-  Pepper
+  Zap
 } from 'lucide-react'
 import { formatCurrency } from '@/lib/utils'
 
